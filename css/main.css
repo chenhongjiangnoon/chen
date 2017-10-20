@@ -1,0 +1,93 @@
+body{
+
+	background: #454545;
+	color: #eee;
+	line-height: 1.7;
+}
+a{
+	text-decoration:none; 
+	/*文字装饰（下划线）没有了*/
+}
+
+a{
+	color: #eee;
+}
+
+.side-bar{
+float: left;
+width: 20%;
+position: fixed;
+/*让左边栏固定*/
+}
+
+.side-bar > *{
+	padding:10px 20px;
+}
+.side-bar .nav a,
+.side-bar .tag-list a{
+display:  block;
+/*占塔母语速的整宽*/
+padding-top: 20px;
+color: #777;
+-webkit-transition: color 500ms ;
+-o-transition: color 500ms ;
+transition: color 500ms ;
+/*从一个颜色到下一个颜色过渡所用的时间 一秒等于1000毫秒*/
+}
+.side-bar .nav a:hover{
+	color:#fff;
+}
+.side-bar .tag-list a:hover{
+	color: #fff;
+}
+/*使鼠标在标签上显示亮色*/
+.side-bar .nav a{
+	font-weight: 800;
+	/*字重 可以使字体变粗*/
+}
+
+.main{
+float: right;
+/*background: #222222;*/
+width: 80%;
+
+
+color: #454545;
+/*字体黑色*/
+}
+.header .logo{
+	
+	
+	line-height: 1;
+    border: 5px solid #eee;
+	padding: 10px 20px;
+	font-size: 30px;
+	display:inline-block;
+	margin-bottom: 10px;
+}
+.article-list{
+	margin-right:30%;
+	background: #fff;
+	padding:20px 30px;
+	-webkit-box-shadow:0 0 3px 2px rgba(0,0,0,.2);
+	box-shadow:0 0 3px 2px rgba(0,0,0,.2);
+	/*通过设置第三个数字可以让汉子显得更有质感 模糊感觉 box-shadow: 0 0 39px rgba(0,0,0,.2) */
+}
+.article-list .item .title,
+.article .title{
+	color: #454545;
+	font-size: 30px;
+	font-weight: 700;
+	
+}
+.article-list .status,
+.article .status {
+
+	font-size: 15px;
+	color: #ccc;
+
+}
+.article-list > *,
+.article > *{
+	margin:10px 0;
+}
