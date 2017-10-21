@@ -20,31 +20,31 @@ position: fixed;
 /*让左边栏固定*/
 }
 
-.side-bar > *{
-	padding:10px 20px;
-}
-.side-bar .nav a,
-.side-bar .tag-list a{
-display:  block;
-/*占塔母语速的整宽*/
-padding-top: 20px;
-color: #777;
--webkit-transition: color 500ms ;
--o-transition: color 500ms ;
-transition: color 500ms ;
-/*从一个颜色到下一个颜色过渡所用的时间 一秒等于1000毫秒*/
-}
-.side-bar .nav a:hover{
-	color:#fff;
-}
-.side-bar .tag-list a:hover{
-	color: #fff;
-}
-/*使鼠标在标签上显示亮色*/
-.side-bar .nav a{
-	font-weight: 800;
-	/*字重 可以使字体变粗*/
-}
+						.side-bar > *{
+						padding:10px 20px;
+					}
+					.side-bar .nav a,
+					.side-bar .tag-list a{
+					display:  block;
+					/*占塔母语速的整宽*/
+					padding-top: 20px;
+					color: #777;
+					-webkit-transition: color 500ms ;
+					-o-transition: color 500ms ;
+					transition: color 500ms ;
+					/*从一个颜色到下一个颜色过渡所用的时间 一秒等于1000毫秒*/
+					}
+					.side-bar .nav a:hover{
+						color:#fff;
+					}
+					.side-bar .tag-list a:hover{
+						color: #fff;
+					}
+					/*使鼠标在标签上显示亮色*/
+					.side-bar .nav a{
+						font-weight: 800;
+						/*字重 可以使字体变粗*/
+					}
 
 .main{
 float: right;
